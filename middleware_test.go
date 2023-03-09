@@ -10,7 +10,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
 )
 
 func TestMiddleware(t *testing.T) {

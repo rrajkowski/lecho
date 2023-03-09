@@ -11,7 +11,7 @@ import (
 	"github.com/labstack/gommon/log"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
 )
 
 func TestWithCaller(t *testing.T) {

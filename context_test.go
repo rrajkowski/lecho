@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3/v3/v3/v3/v3/v3"
 )
 
 func TestCtx(t *testing.T) {

@@ -7,7 +7,7 @@
 For Echo v4:
 
 ```
-go get github.com/ziflex/lecho/v3
+go get github.com/rrajkowski/lecho/v3
 ```
 
 For Echo v3:
@@ -25,7 +25,7 @@ import (
 	"os"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
 )
 
 func main() {
@@ -43,7 +43,7 @@ import (
 	"os"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
         "github.com/rs/zerolog"
 )
 
@@ -63,7 +63,7 @@ import (
 	"os",
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
 )
 
 func main() {
@@ -91,7 +91,7 @@ import (
 	"os",
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/ziflex/lecho/v3"
+	"github.com/rrajkowski/lecho/v3"
 	"github.com/rs/zerolog"
 )
 
@@ -164,7 +164,7 @@ import (
     "github.com/labstack/echo"
     "github.com/labstack/echo/middleware"
     "github.com/labstack/gommon/log"
-    "github.com/ziflex/lecho/v3"
+    "github.com/rrajkowski/lecho/v3"
 )
 
 func main() {
