@@ -140,8 +140,11 @@ func Middleware(config Config) echo.MiddlewareFunc {
 			} else {
 				evt = mainEvt
 			}
-
+fmt.Printf("response %v", res.Body)
+fmt.Printf("request %v", req.Body)
 			evt.Str("remote_ip", c.RealIP())
+			evt.Str("request", req.Body)
+			evt.Str("response", res.Body)
 			evt.Str("host", req.Host)
 			evt.Str("method", req.Method)
 			evt.Str("uri", req.RequestURI)
