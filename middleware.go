@@ -4,6 +4,7 @@ import (
 	"context"
 	"os"
 	"fmt"
+	"encoding/json"
 	"strconv"
 	"time"
 
@@ -144,8 +145,8 @@ func Middleware(config Config) echo.MiddlewareFunc {
 fmt.Printf("res %v", res)
 fmt.Printf("req.Body %v", req.Body)
 			evt.Str("remote_ip", c.RealIP())
-			evt.Str("request", req.Body)
-			evt.Str("response", {})
+			evt.Interface("request", req.Body)
+			evt.Interface("response", res)
 			evt.Str("host", req.Host)
 			evt.Str("method", req.Method)
 			evt.Str("uri", req.RequestURI)
